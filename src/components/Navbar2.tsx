@@ -1,10 +1,12 @@
 import { useState } from "react";
 
+// coded Navbar as a reusable component for the sake of demonstration and practice
 interface Props {
   items: string[];
   onSelectItem: (item: string) => void;
   navbarTheme?: string;
 }
+
 
 function Navbar2({ items, onSelectItem, navbarTheme }: Props) {
   const [selectedIndex, setSelectedIndex] = useState(false);

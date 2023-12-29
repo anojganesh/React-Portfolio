@@ -11,10 +11,12 @@
 }
 .navbar-toggler{
     margin-left: 15px;
+    box-shadow: none;
 }
 .navbar-toggler:focus{ 
     outline: none;
     box-shadow: none;
+    border: none;
 }
 .icon{
     height: 50px;
@@ -36,7 +38,7 @@
     text-align: center;
 }
 .about{
-    height: calc(100dvh - 70px);
+    height: calc(100vh - 70px);
     background-color: rgb(190, 220, 249);
     display: flex;
     flex-direction: column;
