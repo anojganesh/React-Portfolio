@@ -7,7 +7,6 @@ interface Props {
   navbarTheme?: string;
 }
 
-
 function Navbar2({ items, onSelectItem, navbarTheme }: Props) {
   const [selectedIndex, setSelectedIndex] = useState(false);
   return (
@@ -29,9 +28,11 @@ function Navbar2({ items, onSelectItem, navbarTheme }: Props) {
         id="navbarNavAltMarkup"
       >
         <div className="navbar-nav">
+          <a className="nav-link" href="/" key="3">
+            <span className="navtext">Home</span>
+          </a>
           {items.map((item: string, index: number) => (
-            
-            <a className="nav-link" href={"#" + item} key={index}>
+            <a className="nav-link" href={item} key={index}>
               <span className="navtext">{item}</span>
             </a>
           ))}

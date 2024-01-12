@@ -5,6 +5,7 @@
     position: fixed;
     top: 0;
 }
+
 .navtext{
     font-size: 20px;
     padding: 0px 20px;
@@ -34,6 +35,9 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+.icons{
+    padding-bottom: 20px;
+}
 .home{
     text-align: center;
 }
@@ -60,6 +64,39 @@
     padding: 2px 6px;
 }
 
+.scroll{
+    width: fit-content;
+    margin: auto;
+    color: rgba(66, 137, 252, 0.706);
+    text-decoration: underline;
+    opacity: 100%;
+}
+#scrollButton{
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.scroll:hover{
+    color: #5b7ae9;
+}
+.scrollIcon{
+    height: 50px;
+    width: 50px;
+    animation: bounce 4s infinite;
+    margin-top: 32px;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
 .skills h2{
     font-size: 60px;
     height: 200px;
@@ -82,6 +119,7 @@
 }
 .row3 .col-md-4{
     height: 150px;
+    
 }
 .row3{
     padding-bottom: 40px;
@@ -104,6 +142,11 @@
         font-size: 50px;
       }
 }
+@media only screen and (max-width: 380px){
+    .about h1{
+        padding-top: 80px;
+    }
+}
 
 .footer {
     text-align: center;
@@ -113,3 +156,24 @@
     background-color:#3e497a;
 }
 
+.experience{
+    background-color: rgb(172, 197, 244);
+}
+.schoolIcon{
+    opacity: 90%;
+    height: inherit;
+    width: inherit;
+    padding: 7px;
+}
+.vertical-timeline-element-date {
+    color: black; 
+    font-size: 18px !important;
+}
+.briefcaseIcon{
+    height: inherit;
+    width: inherit;
+    padding: 10px;
+}
+.vertical-timeline-element {
+    padding-bottom: 50px; /* Adjust the spacing as needed */
+  }
