@@ -6,6 +6,7 @@ body {
 	overflow: scroll;
 	height: 100vh;
 	overscroll-behavior: contain;
+    background-color: #212529
 }
    
 .col-lg-12{
