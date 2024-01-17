@@ -1,17 +1,17 @@
-import githubIcon from '../assets/github.svg';
-import instagramIcon from '../assets/instagram.svg';
-import linkedinIcon from '../assets/linkedin.svg';
-import emailIcon from '../assets/email2.svg';
-import { MouseEventHandler } from 'react';
-import scrollIcon from '../assets/noun-scroll-down.svg';
+import githubIcon from "../assets/github.svg";
+import instagramIcon from "../assets/instagram.svg";
+import linkedinIcon from "../assets/linkedin.svg";
+import emailIcon from "../assets/email2.svg";
+import { MouseEventHandler } from "react";
+import scrollIcon from "../assets/noun-scroll-down.svg";
 function Home() {
   const scrollClick = () => {
     const scrollHeight = document.documentElement.scrollHeight;
     window.scrollTo({
       top: scrollHeight,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
-  }
+  };
   return (
     <>
       <div className="home container-fluid">
@@ -23,26 +23,31 @@ function Home() {
               creating.
             </p>
             <div className="icons">
-            <a
-              className="iconButton"
-              target="_blank"
-              href="https://www.github.com/anojganesh"
-            >
-              <img className="icon" src={githubIcon}></img>
-            </a>
-            <a className="iconButton" target="_blank" href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=anojganesh@gmail.com">
-              <img className="icon" id="emailIcon" src={emailIcon}></img>
-            </a>
-            <a
-              className="iconButton"
-              target="_blank"
-              href="https://www.linkedin.com/in/anoj-ganesh-8534881a3/"
-            >
-              <img className="icon" src={linkedinIcon}></img>
-            </a>
+              <a
+                className="iconButton"
+                target="_blank"
+                href="https://www.github.com/anojganesh"
+              >
+                <img className="icon" src={githubIcon}></img>
+              </a>
+              <a
+                className="iconButton"
+                target="_blank"
+                href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=anojganesh@gmail.com"
+              >
+                <img className="icon" id="emailIcon" src={emailIcon}></img>
+              </a>
+              <a
+                className="iconButton"
+                target="_blank"
+                href="https://www.linkedin.com/in/anoj-ganesh-8534881a3/"
+              >
+                <img className="icon" src={linkedinIcon}></img>
+              </a>
             </div>
-            <button onClick={scrollClick}
-            id="scrollButton"><h4 className="scroll">Skills</h4></button>
+            <button onClick={scrollClick} id="scrollButton">
+              <h4 className="scroll">Skills</h4>
+            </button>
             <br></br>
             <img src={scrollIcon} className="scrollIcon"></img>
           </div>
