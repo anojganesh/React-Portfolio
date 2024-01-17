@@ -1,7 +1,6 @@
 body {
     background-color: #212529
 }
-   
 .col-lg-12{
     padding-bottom: 4px;
 }
@@ -154,9 +153,10 @@ body {
 
 .footer {
     text-align: center;
-    height: 70px;
+    min-height: 70px;
     padding-top: 37px;
     background-color:#3e497a;
+    border-bottom: 2px solid #212529;
 }
 
 .experience{
