@@ -1,11 +1,4 @@
-html {
-	overflow: hidden;
-}
-
 body {
-	overflow: scroll;
-	height: 100vh;
-	overscroll-behavior: contain;
     background-color: #212529
 }
    
