@@ -270,7 +270,7 @@ body {
 
 @media only screen and (max-width: 1010px) {
     .about h1 {
-        font-weight: 500 !important;
+        font-weight: 505 !important;
     }
     .about .col-lg-12{
         padding-top: 50px;
