@@ -36,7 +36,7 @@ function Experience() {
             <img src={schoolIcon} className="schoolIcon" alt="schoolIcon"></img>
           }
         >
-          <h5>
+          <h5 className="expTitle">
             Current - Toronto Metropolitan University (Formerly Ryerson),
             Toronto, ON
           </h5>

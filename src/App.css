@@ -1,11 +1,15 @@
+.App{
+    background-color: #212529;
+    padding-top: env(safe-area-inset-top);
+}
+.col-lg-12{
+    padding-bottom: 4px;
+}
 .mynav{
     opacity: 100%;
-    background-color: #9acdf1;
     min-height: 70px;
-    position: fixed;
-    top: 0;
+    padding-top: 5px !important;
 }
-
 .navtext{
     font-size: 20px;
     padding: 0px 20px;
@@ -266,9 +270,6 @@
   .projectList {
     grid-template-columns: 1fr;
   }
-}
-
-@media only screen and (max-width: 1010px) {
   .projectList {
     width: 100%;
   }
