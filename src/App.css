@@ -1,14 +1,15 @@
-.App{
+#root {
+    overscroll-behavior-y: none;
     background-color: #212529;
     padding-top: env(safe-area-inset-top);
 }
+   
 .col-lg-12{
     padding-bottom: 4px;
 }
 .mynav{
     opacity: 100%;
     min-height: 70px;
-    padding-top: 5px !important;
 }
 .navtext{
     font-size: 20px;
@@ -17,11 +18,12 @@
 .navbar-toggler{
     margin-left: 15px;
     box-shadow: none;
+    margin-bottom: 5px;
 }
 .navbar-toggler:focus{ 
     outline: none;
-    box-shadow: none;
-    border: none;
+    box-shadow: none !important;
+    padding-top: 5px;
 }
 .icon{
     height: 50px;
