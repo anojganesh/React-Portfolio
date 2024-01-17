@@ -10,6 +10,7 @@ function Experience() {
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#4289fcb4">
+        <div className="canvas">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2023-2024"
@@ -54,6 +55,7 @@ function Experience() {
           <p>High School Diploma, Honors</p>
         </VerticalTimelineElement>
         <br></br>
+        </div>
       </VerticalTimeline>
     </div>
   );

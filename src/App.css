@@ -151,13 +151,17 @@
 .footer {
     text-align: center;
     height: 70px;
-    padding-bottom: 30px;
-    padding-top: 40px;
+    padding-top: 37px;
     background-color:#3e497a;
 }
 
 .experience{
     background-color: rgb(190, 220, 249);
+    min-height: calc(100vh - 70px);
+}
+.canvas{
+    min-height: calc(100vh - 70px - 70px);
+    margin-bottom: 6px; /* fixes RVT line*/
 }
 .schoolIcon{
     opacity: 90%;
@@ -180,7 +184,7 @@
 
 .projects {
   width: 100%;
-  height: auto;
+  min-height: calc(100vh - 70px);
   display: flex;
   justify-content: center;
   align-items: center;
