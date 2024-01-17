@@ -165,6 +165,7 @@
     background-color: rgb(190, 220, 249);
     min-height: calc(100vh - 70px);
 }
+
 .canvas{
     min-height: calc(100vh - 70px - 70px);
     margin-bottom: 6px; /* fixes RVT line*/
@@ -279,4 +280,13 @@
     width: 300px;
     height: 300px;
   }
+  .vertical-timeline-element-content .vertical-timeline-element-date{
+    font-size: 16px !important;
+    }
+
+    .expTitle{
+    font-size: 18px;
+    }
+
 }
+
