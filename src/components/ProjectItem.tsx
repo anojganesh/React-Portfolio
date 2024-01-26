@@ -1,15 +1,18 @@
 import React from "react";
 
-interface Props{
-    image: string;
-    name: string;
+interface Props {
+  image: string;
+  name: string;
+  link?: string;
 }
-function ProjectItem({ image, name} : Props) {
+function ProjectItem({ image, name, link }: Props) {
   return (
-    <div className="projectItem">
-      <div style={{backgroundImage: `url(${image})`}} className="bgImage"/>
-      <h1 className="projName">{name}</h1>
-    </div>
+    <a href={link}>
+      <div className="projectItem">
+        <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
+        <h1 className="projName">{name}</h1>
+      </div>
+    </a>
   );
 }
 
