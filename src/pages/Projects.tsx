@@ -4,12 +4,12 @@ import TicTacToe from "../assets/TicTacToe.png";
 import projcs from "../assets/proj99.png";
 
 function Projects() {
-  const link = "https://tic-tac-toe-ag.netlify.app/";
+  const link1 = "https://tic-tac-toe-ag-0e9ceb6142d0.herokuapp.com/";
   return (
     <div className="projects">
       <h1 className="projTitle"> My Personal Projects</h1>
         <div className="projectList">
-          <ProjectItem name="Tic-Tac-Toe (Multiplayer!)" image={TicTacToe} link={link}/>
+          <ProjectItem name="Tic-Tac-Toe (Multiplayer!)" image={TicTacToe} link={link1}/>
           <ProjectItem name="Coming Soon" image={projcs}/>
           <ProjectItem name="Coming Soon" image={projcs}/>
         </div>
