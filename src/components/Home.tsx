@@ -19,7 +19,7 @@ function Home() {
           <div className="col-lg-12">
             <h1>Hi, My Name is Anoj</h1>
             <p>
-              An aspiring fullstack developer with a passion for learning and
+              An aspiring developer with a passion for learning and
               creating.
             </p>
             <div className="icons">
