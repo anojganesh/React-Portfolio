@@ -65,8 +65,7 @@ function Experience() {
               Toronto, ON
             </h5>
             <h6>Computer Science (BSc (Hons)) (Co-Op)</h6>
-            <p className="experience-note">Michael Julien Jr. Award</p>
-            <p className="experience-note">Dean's List</p>
+            <p className="experience-note">Michael Julien Jr. Award, Dean's List</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
