@@ -9,11 +9,12 @@ import briefcaseIcon from "../assets/noun-briefcase.svg";
 function Experience() {
   return (
     <div className="experience">
+      
       <VerticalTimeline lineColor="#4289fcb4">
         <div className="canvas">
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            date="2023 – 2024"
+            date="2023 – Present"
             iconStyle={{ background: "rgb(250, 247, 168)", color: "#fff" }}
             icon={
               <img
@@ -24,10 +25,29 @@ function Experience() {
             }
           >
             <h5 className="expTitle">
-              Current - Project Assistant - Toronto Metropolitan University
+              Current - IT Assistant - Toronto Metropolitan University
               (School of ECS), Toronto, ON
             </h5>
           </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="2023"
+            iconStyle={{ background: "rgb(250, 247, 168)", color: "#fff" }}
+            icon={
+              <img
+                src={briefcaseIcon}
+                className="briefcaseIcon"
+                alt="schoolIcon"
+              ></img>
+            }
+          >
+            <h5 className="expTitle">
+              Data Analyst Intern - ATS Software, Scarborough, ON
+            </h5>
+          </VerticalTimelineElement>
+          
+          
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
             date="2022 – 2027"
